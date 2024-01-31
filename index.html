@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="icon" href="imagenes/icono.png">
+    <!--  CSS  -->
+    <link rel="stylesheet" href="index.css">
+    <!--  ICONOS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="barra_navegacion">
+        <!-- MENU HAMBURGUESA -->
+        <div class="menu-icon" id="menu-icon">
+            <div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+        </div>
+
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#seccion_inicio">Inicio</a></li>
+                <li><a href="#seccion_sobremi">Sobre mi</a></li>
+                <li><a href="#seccion_proyectos">Proyectos</a></li>
+                <li><a href="#seccion_certificados">Certificados</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <section id="seccion_inicio">
+
+        <div class="div_datos">
+
+            <h1>Joaquin Azaña Hilario</h1>
+            <h3>Desarrollo de Software</h3>
+            <p>Lima - Peru</p>
+
+            <div class="div_cv">
+                <button type="button">
+                    <a id="pdf_Cv" href="CV/CV.pdf" download>Currículum</a>
+                </button>
+            </div>
+
+            <div class="div_iconos">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            
+        </div>
+
+        <div class="div_datos">
+
+            <img src="imagenes/perfil.png" alt="perfil">
+
+        </div>
+
+    </section>
+    
+
+
+    <section id="seccion_sobremi">
+    
+        <div class="div_texto_sobremi">
+
+            <p>Me desempeño en frontend pero tengo conocimientos en backend.Estuve como practicante en una empresa de ciberseguridad en todo el 2023.</p>
+
+        </div>
+
+
+        <section class="seccion_lenguajes_sobremi">
+
+            <div class="div_lenguajes">
+
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-angular"></i>
+
+            </div>
+
+            <div class="div_lenguajes">
+
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-php"></i>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    
+    <section id="seccion_proyectos">
+
+        <div class="div_titulo">
+            <h1 class="titulo">Proyectos</h1>
+        </div>
+
+        <div class="div_proyecto">
+
+            <img loading="lazy" src="imagenes/pry1.png" alt="pry1">
+            <div class="div_lenguajes_proyectos">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i id="proyecto1" class="fa-brands fa-github"></i>
+            </div>
+            <div class="div_texto_proyecto">
+                <h1 class="descripcion">Consiste en dar información del clima con la API OpenWeather. Muestra datos como temperatura máxima y mínima, velocidad del viento, humedad.</h1>
+            </div>
+
+        </div>
+
+        <div class="div_proyecto">
+
+            <img loading="lazy" src="imagenes/pry2.png" alt="pry2">
+            <div class="div_lenguajes_proyectos">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i id="proyecto2" class="fa-brands fa-github"></i>
+            </div>
+            <div class="div_texto_proyecto">
+                <h1 class="descripcion">Consiste en poder buscar imágenes con la API de Unsplash. También permite añadirlas a favoritos, eliminarlas y subir una imagen desde tu navegador para verla.</h1>
+            </div>
+
+        </div>
+
+        <div class="div_proyecto">
+
+            <img loading="lazy" src="imagenes/pry3.png" alt="pry3">
+            <div class="div_lenguajes_proyectos">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i id="proyecto3" class="fa-brands fa-github"></i>
+            </div>
+            <div class="div_texto_proyecto">
+                <h1 class="descripcion">Consiste en filtrar por nombre y tipo usando la API de PokeAPI. Muestra los datos de cada Pokémon filtrado.</h1>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="seccion_certificados">
+
+        <div loading="lazy" class="div_certificado">
+            <img src="imagenes/cert1.jpg" alt="cert1">
+        </div>
+
+        <div loading="lazy" class="div_certificado">
+            <img src="imagenes/cert2.jpg" alt="cert2">
+        </div>
+
+        <div loading="lazy" class="div_certificado">
+            <img src="imagenes/cert3.jpg" alt="cert3">
+        </div>
+
+        <div loading="lazy" class="div_certificado">
+            <img src="imagenes/cert4.jpg" alt="cert4">
+        </div>
+
+        <div loading="lazy" class="div_certificado">
+            <img src="imagenes/cert5.jpg" alt="cert5">
+        </div>
+
+        <div loading="lazy" class="div_certificado">
+            <img src="imagenes/cert6.jpg" alt="cert6">
+        </div>
+
+    </section>
+
+    
+    <script src="index.js"></script>
+
+    <footer>
+
+        <p>Creado por Joaquin Azaña © 2024</p>
+        <p>El aprendizaje es continuo, nunca se deja de aprender algo nuevoツ</p>
+
+    </footer>
+
+</body>
+</html>
